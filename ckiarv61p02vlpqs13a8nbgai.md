@@ -133,4 +133,4 @@ Checkout their repo for more details.
 
 %[https://github.com/open-telemetry/opentelemetry-dotnet]
 
-> This post is created as part of the [C# Advent Series 2020](http://www.csadvent.christmas) Please checkout the link to find other great articles posted in the series
+> This post is created as part of the [C# Advent Calendar 2020](http://www.csadvent.christmas) Please check out the link to find other great articles posted in the series
