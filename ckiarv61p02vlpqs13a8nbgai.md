@@ -119,7 +119,7 @@ curl --location --request POST 'http://localhost:4500/api/Order' \
 Let's navigate to the Jaeger UI. See, how the traces are created and you can take a single trace and see what are the different spans, any external API calls, custom traces, and span. 
 
 
-![Screen Shot 2020-12-04 at 4.03.51 PM.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1607115887365/e87AmzRGB.png)
+![Screen Shot 2020-12-05 at 8.57.08 PM.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1607220353384/1en7uVlMH.png)
 
 ## Conclusion
 
@@ -127,10 +127,13 @@ Using OpenTelemetry SDK gives you more flexibility, offering integration with mu
 
 You can explore and understand the APIs and concepts of it. Using in the production will take some time till the packages are in a stable state. OpenTelemetry’s .NET packages are in beta state and the APIs will be subject to change. 
 
-The OpenTelemetry efforts are promising and moving in the right direction for the observability - logs, metrics, and traces. The OpenTelemetry is majorly supporting traces now. The metrics are still in the early stage. The logging is relying on Microsoft.Extensions.Logging for .NET libraries. 
+The OpenTelemetry efforts are promising and moving in the right direction for the observability - logs, metrics, and traces. The OpenTelemetry is majorly supporting traces now. The metrics are still in the early stage and .NET Core Metrics APIs are compatible with the OpenTelemetry Metrics API Specification. The logging is relying on Microsoft.Extensions.Logging for .NET libraries. 
 
 Checkout their repo for more details.
 
 %[https://github.com/open-telemetry/opentelemetry-dotnet]
 
-> This post is created as part of the [C# Advent Calendar 2020](http://www.csadvent.christmas) Please check out the link to find other great articles posted in the series
+> This post is created as part of the [C# Advent Calendar 2020](http://www.csadvent.christmas) Please check out the link to find other great articles posted in the series.
+
+> Please follow me on my [twitter](https://www.twitter.com/ksivamuthu), [linkedin](https://www.linkedin.com/in/ksivamuthu/) and [github](https://www.github.com/ksivamuthu) for more articles/demos on cloud native, containers and mobile/web apps.
+
