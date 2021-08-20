@@ -37,7 +37,7 @@ This blog walks you through setting up Flagger and AWS AppMesh on EKS. You can c
     --appmesh-access
     ```
 
-      This command will create an EKS cluster with an appmesh IAM policy attached.
+This command will create an EKS cluster with an appmesh IAM policy attached.
 
 ### Installing AWS AppMesh
 
