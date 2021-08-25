@@ -114,6 +114,10 @@ Select the events you'd like to subscribe to from the dropdown menu. For SMS you
     );
     ```
 
+You can find the source code of the repo here.
+
+%[https://github.com/ksivamuthu/azure-communication-sms]
+
 ## Conclusion
 
 Azure Communication Services is great for SMS integration for your applications - alert messages, schedule reminders, customer service scenarios, and other real communication needs. And also, the service supports Bulk messaging, Two-way conversations, Reliable Delivery, Analytics, and a Simple setup experience for adding SMS capability to your application.
