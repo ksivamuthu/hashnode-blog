@@ -302,8 +302,21 @@ hey -z 1m -c 100 https://ptydisq8gp.us-east-1.awsapprunner.com/api/coffee
 
 ![Untitled 3.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635623027989/3vFqcPU32.png)
 
+You can see the "active instances" count get increased based on the concurrent requests for autoscaling.
+
 ## Conclusion
 
-AWS App Runner is a fully managed service that makes it easy for developers to quickly deploy containerized web applications and APIs at scale. It provides seamless "code-to-deploy" workflow for Node.js and Python runtime today and other runtimes using Dockerfile. It's still necessary to have their release pipeline instead of the managed pipeline achieve more granular controls over and run unit/integration tests before deploying the containers. Copilot also helps you with this. It allows you to have your own customizable pipelines with just a few commands for your apps running AWS AppRunner.
+AWS App Runner is a fully managed service that makes it easy for developers to quickly deploy containerized web applications and APIs at scale. It provides seamless "code-to-deploy" workflow for Node.js and Python runtime today and other runtimes using Dockerfile. Copilot also helps you to have your own customizable pipelines with just a few commands for your apps running AWS AppRunner.
+
+I presented a talk on AWS App Runners at the [IndyAWS](https://meetingplace.io/indyaws) meetup. This session covers
+
+* AWS App Runner's features,
+* The key challenges AWS App Runner solves,
+* How to configure and integrate AWS App Runner with your source control to deploy your code in seconds
+* Live demo using AWS Copilot CLI, a tool that supports AWS App Runner.
+* Want a deeper dive? Download the [presentation slides](https://bit.ly/aws-app-runner) and youtube video of the talk
+
+%[https://www.youtube.com/watch?v=FfJVk2OS0jA]
+
 
 I'm Siva - working as Sr. Software Architect at Computer Enterprises Inc from Orlando. I'm an AWS Community builder, Auth0 Ambassador and I am going to write a lot about Cloud, Containers, IoT, and Devops. If you are interested in any of that, make sure to follow me if you haven’t already. Please follow me **[@ksivamuthu](https://twitter.com/ksivamuthu)** Twitter or check out my blogs at **[blog.sivamuthukumar.com](https://blog.sivamuthukumar.com/)**!
