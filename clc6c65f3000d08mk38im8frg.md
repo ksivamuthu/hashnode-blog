@@ -40,7 +40,7 @@ In addition to saving time and effort, using Azure Terrafy can also help you ens
     
 * A configured Azure CLI profile with the necessary permissions to read resources in your Azure subscription
     
-* Install `aztfy` from [GitHub releases](https://github.com/Azure/aztfy/releases) - pre-compiled binaries
+* Install `aztfy` from [GitHub Releases](https://github.com/Azure/aztfy/releases) - pre-compiled binaries on macOS, Windows & Linux platforms
     
 
 ### Importing Existing Resources
